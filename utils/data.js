@@ -1,5 +1,3 @@
-// utils/data.js
-
 const users = [
   {
     username: 'johnDoe',

@@ -71,21 +71,21 @@ After starting the server, you can interact with the API using tools like Insomn
 
 ## API Endpoints
 ### Users
-* GET /api/users - Get all users
-* GET /api/users/:id - Get a single user by ID
-* POST /api/users - Create a new user
-* PUT /api/users/:id - Update a user by ID
-* DELETE /api/users/:id - Delete a user by ID
-* POST /api/users/:userId/friends/:friendId - Add a friend to a user's friend list
+* GET /api/user - Get all users
+* GET /api/user/:id - Get a single user by ID
+* POST /api/user - Create a new user
+* PUT /api/user/:id - Update a user by ID
+* DELETE /api/user/:id - Delete a user by ID
+* POST /api/user/:userId/friends/:friendId - Add a friend to a user's friend list
 * DELETE /api/users/:userId/friends/:friendId - Remove a friend from a user's friend list
 ### Thoughts
-* GET /api/thoughts - Get all thoughts
-* GET /api/thoughts/:id - Get a single thought by ID
-* POST /api/thoughts - Create a new thought
-* PUT /api/thoughts/:id - Update a thought by ID
-* DELETE /api/thoughts/:id - Delete a thought by ID
-* POST /api/thoughts/:thoughtId/reactions - Create a reaction to a thought
-* DELETE /api/thoughts/:thoughtId/reactions/:reactionId - Delete a reaction from a thought
+* GET /api/thought - Get all thoughts
+* GET /api/thought/:id - Get a single thought by ID
+* POST /api/thought - Create a new thought
+* PUT /api/thought/:id - Update a thought by ID
+* DELETE /api/thought/:id - Delete a thought by ID
+* POST /api/thought/:thoughtId/reactions - Create a reaction to a thought
+* DELETE /api/thought/:thoughtId/reactions/:reactionId - Delete a reaction from a thought
 ## Models
 ### User Model
 * username: String, required, unique
