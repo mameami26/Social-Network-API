@@ -32,7 +32,7 @@ To set up the project on your local machine, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/social-network-api.git
+   git clone https://github.com/mameami26/Social-Network-API.git
    cd social-network-api
 2. **Install dependencies:**
    
@@ -42,14 +42,11 @@ To set up the project on your local machine, follow these steps:
    
    Ensure you have MongoDB installed and running on your local machine. By default, the application connects to mongodb://127.0.0.1:27017/socialNetworkDB. If your MongoDB instance is different, update the connection string in config/connection.js.
 
-4. **Seed the database (optional):**
-   
-   ``` bash
-   node utils/seed.js
-5. **Start the server:**
+
+1. **Start the server:**
    
    ```bash
-   npm start
+   node index.js
 ## Usage
 After starting the server, you can interact with the API using tools like Insomnia or Postman. The API runs on http://localhost:3001 by default.
 
@@ -117,7 +114,7 @@ After starting the server, you can interact with the API using tools like Insomn
 * Express.js - Web framework for Node.js
 * MongoDB - NoSQL database
 * Mongoose - MongoDB object modeling for Node.js
-* JavaScript (ES6+) - Programming language
+* JavaScript - Programming language
 ## Contributing
   Contributions are welcome! Please fork the repository and create a pull request with your changes. Make sure to update tests as appropriate.
 
@@ -125,7 +122,7 @@ After starting the server, you can interact with the API using tools like Insomn
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Walkthrough Video
-A walkthrough video demonstrating the setup, functionality, and testing of the API endpoints can be found here. (Replace # with the actual URL once the video is available)
+A walkthrough video demonstrating the setup, functionality, and testing of the API endpoints can be found here. ([walkthrough Video](https://drive.google.com/file/d/1cY4s5mnl78F688GaxbkHcISpWDbZvHwu/view?usp=sharing))
 
 ## Contact
 For any questions, please contact:
